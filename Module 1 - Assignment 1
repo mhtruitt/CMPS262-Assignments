@@ -3,11 +3,12 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
+    <title>My Website</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
 </head>
 <body>
     <h1>My name is Morgan Truitt</h1>
+    <img src="./images/snoopy.jpg" height="200" width="200">
     <p>My interests are video games, art, and traveling.</p>
     <p>Courses: ACCT220: Management Accounting for Decision Makers, BMGT280: Career Preperation, & CMPS262: Advanced Programming</p>
     <p>Contact Information: email - mhtruit@pointpark.edu, mobile - (724)464-4986, LinkedIn - https://www.linkedin.com/in/morgan-truitt-6626993a4/</p>
