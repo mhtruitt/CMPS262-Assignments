@@ -1,0 +1,32 @@
+<html>
+    <head>
+    <title>Mack Family Winery - Menu</title>
+    <link rel="stylesheet" href="./style-A2-menu.css">
+    </head>
+    <body>
+        <header>
+            Our Wine List
+        </header>
+
+        <div class="menu-container">
+            <h2>Available Wines</h2>
+            <ul class="wine-menu">
+                <li>
+                    <h3>Chardonnay</h3>
+                    <p>A crisp and refreshing white wine with notes of apple and citrus.</p>
+                </li>
+                <li>
+                    <h3>Merlot</h3>
+                    <p>A smooth red wine with flavors of blackberry and plum.</p>
+                </li>
+                <li>
+                    <h3>Cabernet Sauvignon</h3>
+                    <p>A full-bodied red wine with rich tannins and hints of oak.</p>
+                </li>
+                <li>
+                    <h3>Sauvignon Blanc</h3>
+                    <p>A light and zesty white wine with tropical fruit flavors.</p>
+                </li>
+            </ul>
+    </body>
+</html>
