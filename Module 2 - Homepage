@@ -1,0 +1,16 @@
+<html>
+    <title>Mack Family Winery - Homepage</title>
+    <head>
+        <link rel="stylesheet" href="./style-A2-homepage.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Welcome to Mack Family Winery</h1>
+            <p>Experience the finest wines crafted with passion and tradition.</p>
+            <div class="container-flex">
+                <button>Explore our offerings</button>
+            </div>
+        </header>
+    </body>
+</html>
