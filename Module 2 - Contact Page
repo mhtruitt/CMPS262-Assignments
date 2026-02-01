@@ -1,0 +1,31 @@
+<html>
+    <title>Mack Family Winery - Contact Us</title>
+    <head>
+        <link rel="stylesheet" href="./A2-contact.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Contact Mack Family Winery</h1>
+            <p>Need more information? Let us reach out to you!</p>
+        </header>
+        <section>
+        <div class="form-container">
+            <h2>Customer Information</h2>
+            <form action="#" method="post">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" placeholder="Enter your first name" required>
+                
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" placeholder="Enter your last name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+
+                <label for="comments">Comments:</label>
+                <input type="text" id="comments" name="comments" placeholder="Submit any questions or comments you have" required>
+
+                <button type="submit">Submit</button>
+        </section>
+    </body>
+</html>
