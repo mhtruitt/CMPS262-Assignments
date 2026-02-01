@@ -1,0 +1,45 @@
+body {
+    font-family:initial;
+    background-color: rgb(102, 10, 48);
+    color:bisque;
+    margin:0;
+    padding:0;
+}
+
+h1 {
+    color:rgb(219, 166, 188);
+    text-align:center;
+    font-size: 3rem;
+    line-height: 1.5;
+    padding: 30px;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    padding: 5px;
+    text-align: center;
+    color:rgb(219, 166, 188);
+}
+
+button {
+    background-color:rgb(47, 4, 22);
+    color:bisque;
+    border: 2px solid bisque;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+}
+
+button:hover {
+    background-color:rgb(219, 166, 188);
+    color:rgb(102, 10, 48);
+}
+
+.container-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
