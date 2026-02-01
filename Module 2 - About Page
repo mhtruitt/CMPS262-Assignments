@@ -1,0 +1,25 @@
+<html>
+    <title>Mack Family Winery - About Us</title>
+    <head>
+        <link rel="stylesheet" href="./A2-about.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>About Mack Family Winery</h1>
+            <p>Discover our story, our values, and our commitment to excellence in winemaking.</p>
+        </header>
+        <section>
+            <h2>Our History</h2>
+            <p>Founded in 1998, Mack Family Winery has been dedicated to producing high-quality wines that reflect the unique terroir of our vineyards.</p>
+        </section>
+        <section>
+            <h2>Our Mission</h2>
+            <p>We strive to create exceptional wines while promoting sustainable farming practices and supporting our local community.</p>
+        </section>
+        <section>
+            <h2>Our Offerings</h2>
+            <p>Our winery offers a diverse selection of premium wines, including Cabernet Sauvignon, Chardonnay, and Pinot Noir, each crafted to perfection.</p>
+        </section>
+    </body>
+</html>
