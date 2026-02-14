@@ -20,3 +20,7 @@ app.post('/contact', (req, res) => {
 app.listen(port, () => {
     console.log(`Server is running at http://localhost:${port}/`);
 });
+
+app.get('/football', (req, res) => {
+    res.send('Swifties win another Super Bowl');
+});
