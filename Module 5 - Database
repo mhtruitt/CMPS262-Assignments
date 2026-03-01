@@ -1,0 +1,38 @@
+CREATE TABLE public."Video Games" (
+    id SERIAL PRIMARY KEY,
+    game_title TEXT NOT NULL,
+    developer TEXT,
+    release_year INT,
+    game_genre TEXT,
+    IGN_rating TEXT,
+    list_type TEXT CHECK (list_type IN ('Played', 'Wishlist'))
+);
+
+INSERT INTO public."Video Games"
+(game_title, developer, release_year, game_genre, IGN_rating, list_type)
+VALUES
+-- Played
+('Stray', 'BlueTwelve', 2022, 'Adventure, Puzzle, Platformer', '8/10', 'Played'),
+('The Last of Us', 'Naughty Dog', 2013, 'Action-Adventure, Survival Horror', '10/10', 'Played'),
+('The Last of Us Part II', 'Naughty Dog', 2020, 'Action-Adventure, Survival Horror', '10/10', 'Played'),
+('Subnautica', 'Unknown Worlds', 2018, 'Action-Adventure, Open World, Survival', '9.1/10', 'Played'),
+('South Park: The Stick of Truth', 'Obsidian Entertainment', 2014, 'Adventure, RPG', '9/10', 'Played'),
+('Heavy Rain', 'Quantic Dream', 2010, 'Psychological Thriller', '9/10', 'Played'),
+('Mario Kart Wii', 'Nintendo EAD', 2008, 'Racing', '8.5/10', 'Played'),
+('SpongeBob SquarePants: Battle for Bikini Bottom', 'Heavy Iron Studios, THQ', 2003, 'Platformer', '7.3/10', 'Played'),
+('Grand Theft Auto IV', 'Rockstar North', 2008, 'Open World, Action-Adventure, Third-Person Shooter', '10/10', 'Played'),
+
+-- Wishlist
+('Baldur''s Gate 3', 'Larian Studios', 2023, 'Action-Adventure, RPG', '10/10', 'Wishlist'),
+('Divinity Original Sin 2', 'Larian Studios', 2016, 'Turn-based, RPG', '9.6/10', 'Wishlist'),
+('Super Mario 64', 'Nintendo', 1996, 'Adventure, Platformer', '9.8/10', 'Wishlist'),
+('Disco Elysium', 'ZA/UM', 2019, 'Adventure, RPG', '9.6/10', 'Wishlist'),
+('Undertale', 'Toby Fox', 2015, 'Action-Adventure, RPG', '10/10', 'Wishlist'),
+('Portal', 'Valve Corporation', 2007, 'Puzzle, Platformer, First-Person Shooter', '8.2/10', 'Wishlist'),
+('Hades', 'Supergiant Games', 2020, 'Action, RPG', '9/10', 'Wishlist'),
+('Outlast', 'Red Barrels', 2013, 'Action-Adventure, Survival Horror', '7.8/10', 'Wishlist'),
+('Kingdom Hearts', 'Square Enix', 2002, 'Adventure, RPG', '9/10', 'Wishlist'),
+('Bloodborne', 'FromSoftware Inc.', 2015, 'Action-Adventure, RPG', '9.1/10', 'Wishlist'),
+('Resident Evil 9', 'Capcom', 2026, 'Survival Horror', '9/10', 'Wishlist');
+
+SELECT * FROM public."Video Games";
