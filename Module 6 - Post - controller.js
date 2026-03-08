@@ -29,6 +29,8 @@ const getAccountsById = (req, res) => {
 
 //Post (Add new account information)
 const addNewAccount = (req, res) => {
+    const { game_title, developer, release_year, game_genre, ign_rating, list_type } = req.body;
+    
     pool.query(queries.addNewAccount, [game_title, developer, release_year, game_genre, ign_rating, list_type], (error, results) => {
         if (error) throw error;
         res.status(200).json(results.rows);
