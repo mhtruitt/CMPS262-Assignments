@@ -12,7 +12,7 @@ const getAccounts = (req, res) => {
 //Author: Morgan Truitt
 //Date: 3/7/2026
 const getAccountsById = (req, res) => {
-    const { id } = req.params;
+    const accountid = parseInt(req.params.id);
     if(isNaN(id)) {
         return res.status(400).json({error: "Invalid account ID"});
     }
